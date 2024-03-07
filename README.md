@@ -1,4 +1,4 @@
-###A Content-Based Recommender System for Movies
+### A Content-Based Recommender System for Movies
 This code implements a simple content-based recommender system algorithm for movies. The system uses textual information about movies, such as title, genres, tag lines, and reviews, to find similar movies using cosine similarity analysis.
 
 **Running the Code:**
@@ -9,10 +9,10 @@ Run the recommendation_system.py file to get recommendations for a specific movi
 This function extracts the genres from a column in JSON format and returns them as a string.
 
 2. select_features
-Selects and processes key features for work. This includes the title, genres, tagline and overview.
+Selects and processes key features for work. This includes the title, genres, tagline, and overview.
 
 3. get_recommendation
-Creates recommendations based on similarity of textual information. Uses TF-IDF and cosine similarity algorithm to find the most similar movies.
+Creates recommendations based on the similarity of textual information. Uses TF-IDF and cosine similarity algorithm to find the most similar movies.
 
 **Incoming data:**
 The movies_metadata.csv file contains information about various movies, including title, genres, taglines, and reviews.
